@@ -1,0 +1,12 @@
+header {
+    background-color: map-get($light-theme , bg-color );
+    color: map-get($light-theme , text-color );
+    text-align: center;
+    padding: map-get($spacing , p-l );
+    h1{
+        font-size: map-get($title , title1 );
+    }
+    p{
+        font-size: map-get($title , paragraph );
+    }
+}

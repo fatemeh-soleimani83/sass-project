@@ -1,0 +1,9 @@
+footer{
+    background-color: map-get($light-theme , bg-color );
+    padding: map-get($spacing, p-m );
+    h2{
+        font-size: map-get($title , title2 );
+        color: map-get($light-theme, text-white );
+        text-align: center;
+    }
+}

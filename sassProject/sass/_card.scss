@@ -1,0 +1,25 @@
+section{
+    img{
+        display: block;
+        width: 100%;
+    }
+    p{
+        font-size: map-get($title , paragraph );
+        padding: map-get($spacing , p-s );
+    }
+    a{
+        display: block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        background-color: map-get($light-theme , bg-color );
+        color: map-get($light-theme , text-color );
+        width: 200px;
+        margin:5px auto;
+        border-radius: 5px;
+        &:hover{
+            background-color: darken(map-get($light-theme , bg-color ), 5%);
+            color: map-get($light-theme , text-white );
+        }
+    }
+}
